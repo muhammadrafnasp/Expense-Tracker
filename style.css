@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    background-image: url(images/8dab2ccfd0d3573d36a2764357b3d467.jpg);
+    
+}
+
+.budget-tracker{
+    border-collapse: collapse;
+    min-width: 750px;
+    font-family: sans-serif;
+}
+
+.budget-tracker th{
+    text-align: left;
+    padding: 10px 20px;
+
+}
+
+.budget-tracker td{
+    padding: 5px;
+}
+
+.input,
+.entrydelete{
+    height: 30px;
+    font-size: 13px;
+    padding: 0 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.input{
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input:focus{
+    border-color: #bbbbbb;
+}
+
+.delete-entry{
+    display: flex;
+    border: none;
+    color: red;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    border-radius: 10%;
+}
+
+.delete-entry:hover{
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.controls,
+.summary{
+    text-align: right;
+}
+
+.new-entry{
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: #bbbbbb;
+
+}
+
+.new-entry:hover{
+    background-color: rgba(255, 0, 0, 0.1);
+    color: #fff;
+}
